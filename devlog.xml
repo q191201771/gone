@@ -24,12 +24,12 @@
         </filter>
     </outputs>
     <formats>
-        <format id="file_common" format="%Date(2006-01-02 15:04:05.000) %LEVEL %Msg - %File:%Line%n" />
-        <format id="console_trace" format="%Date(2006-01-02 15:04:05.000) %EscM(37)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
-        <format id="console_debug" format="%Date(2006-01-02 15:04:05.000) %EscM(37)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
-        <format id="console_info" format="%Date(2006-01-02 15:04:05.000) %EscM(36)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
-        <format id="console_warn" format="%Date(2006-01-02 15:04:05.000) %EscM(33)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
-        <format id="console_error" format="%Date(2006-01-02 15:04:05.000) %EscM(31)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
-        <format id="console_critical" format="%Date(2006-01-02 15:04:05.000) %EscM(31)%LEVEL%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="file_common" format="%Date(2006-01-02 15:04:05.000) %LEV %Msg - %File:%Line%n" />
+        <format id="console_trace" format="%Date(2006-01-02 15:04:05.000) %EscM(37)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="console_debug" format="%Date(2006-01-02 15:04:05.000) %EscM(37)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="console_info" format="%Date(2006-01-02 15:04:05.000) %EscM(36)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="console_warn" format="%Date(2006-01-02 15:04:05.000) %EscM(33)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="console_error" format="%Date(2006-01-02 15:04:05.000) %EscM(31)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
+        <format id="console_critical" format="%Date(2006-01-02 15:04:05.000) %EscM(31)%LEV%EscM(49)%EscM(0) %Msg - %File:%Line%n" />
     </formats>
 </seelog>
